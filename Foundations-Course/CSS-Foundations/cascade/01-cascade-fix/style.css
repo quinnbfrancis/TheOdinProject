@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+.para {
+  font-size: 22px;
+}
+
+/* This was moved below the .para rule so that rule order
+ selects the .small-para rule */
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* The .confirm class selector was replaced with the
+#confirm-button id selector because it has higher specificity */
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+/* The .child selector is replaced with the .text.child selector
+ as it has higher specificity than div.text */
+.text.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}

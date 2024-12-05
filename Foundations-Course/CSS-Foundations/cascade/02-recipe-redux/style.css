@@ -1,0 +1,21 @@
+.index
+{
+  text-align: center;
+  background-color: bisque;
+  font-weight: 600;
+  color: crimson;
+  padding-block: 5px;
+  font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+
+.recipe
+{
+  text-align: left;
+  background-color: rgb(255, 211, 135);
+  font-weight: 600;
+  color: rgb(42, 14, 1);
+  padding-block: 5px;
+  font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
