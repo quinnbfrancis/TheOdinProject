@@ -1,0 +1,24 @@
+/* Stylesheet for 03-grouping-selectors */
+
+
+/*applies to the first element*/
+.first
+{
+  background-color: black;
+  color: white;
+}
+
+/*applies to the second element*/
+.second
+{
+  background-color: yellow;
+}
+
+/*applies to both elements*/
+.first,
+.second
+{
+  font-size: 28px;
+  font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+

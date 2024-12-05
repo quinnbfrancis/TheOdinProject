@@ -1,0 +1,29 @@
+/* Stylesheet for 02-class-id-selectors */
+
+/*applies to all odd numbered elements*/
+.odd
+{
+  background-color: rgb(229, 53, 118);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/*applies to the second element*/
+#number-2
+{
+  color:#0844bd;
+  font-size: 36px;
+}
+
+/*applies to the third element*/
+.cooler
+{
+font-size: 24px;
+}
+
+/*applies to the fourth element*/
+#number-4
+{
+  background-color: hsl(120, 71%, 51%);
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+/* Stylesheet for 05-descendant-combinator */
+
+div .text 
+/* to get the desired outcome
+"div" or ".container" can both work as the ancestor element
+if you use ".text" or "p" as the child element */
+{
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
