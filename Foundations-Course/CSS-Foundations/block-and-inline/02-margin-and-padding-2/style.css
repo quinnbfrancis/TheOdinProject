@@ -1,0 +1,61 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+  
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  /*Add padding to create the white edges around all of 
+  the enclosed class elements to match desired-outcome.png*/
+  padding: 8px;
+
+}
+
+.title {
+  background: #e3f4ff;
+  /*Specify font-size as 16px to match the title 
+  font size shown in desired-outcome.png */
+  font-size: 16px;
+  /*Add padding to match the blue edges around the title text shown
+  in desired-outcome.png */
+  padding: 8px;
+  /*Add margin to match the white edge between the title 
+  and content boxes shown in desired-outcome.png */
+  margin: 0 0 8px 0;
+}
+
+.content {
+  background: #e3f4ff;
+  /*Add padding to match the blue edges around the content text shown
+  in desired-outcome.png */
+  padding: 16px 8px;
+  /*Add margin to match the white edge between the content 
+  and button-container boxes shown in desired-outcome.png */
+  margin: 0 0 8px 0;
+}
+
+.button-container {
+  background: #e3f4ff;
+  /*Specify text-align as center to match the text in button-container to 
+  desired-outcome.png */
+  text-align: center;
+  /*Add padding to match the blue edges around the button-container text shown
+  in desired-outcome.png */
+  padding: 8px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  /*Specify display as block to push the button to a new line
+  to match desired-outcome.png */
+  display: block;
+  /*Specify margin as auto to centre the button horizontally
+  to match desired-outcome.png */ 
+  margin: auto;
+  /*Add padding to match the space inside the button shown
+  in desired-outcome.png */ 
+  padding: 8px 24px;
+}
