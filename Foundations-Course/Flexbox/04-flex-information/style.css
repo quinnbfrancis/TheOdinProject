@@ -1,6 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  /*Text-align is set to center so the title is centered on the page */
+  /*Text-align is set to center so the title is centered horizontally */
   text-align: center;
 }
 
@@ -12,8 +12,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  /*Margin-bottom is set to 32px so that it's the size of the space between
-  the title and the articles */
+  /*Margin-bottom is set to 32px so that the size of the space between
+  the title and the articles matches the README.md instruction */
   margin-bottom: 32px;
 }
 
@@ -34,7 +34,7 @@ img {
 .article-container {
 /*Set the display layout to flex */
 display: flex;
-/*Set the gap between flex items to 52px so the flex items that much space
+/*Set the gap to 52px so the flex items have that much space
 between eachother */
 gap: 52px;
 /*Set justify-content to center so that the flex items are centered
