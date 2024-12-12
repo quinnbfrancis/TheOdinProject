@@ -1,0 +1,21 @@
+.container {
+  background: dodgerblue;
+  border: 4px solid midnightblue;
+  width: 400px;
+  height: 300px;
+  /*Change display layout to flex */
+  display: flex;
+  /*Set justify-content to center so the flex items center horizontally */
+  justify-content: center;
+  /*Set align-items to center so the flex items center vertically */
+  align-items: center;
+}
+
+.box {
+  background: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+}
